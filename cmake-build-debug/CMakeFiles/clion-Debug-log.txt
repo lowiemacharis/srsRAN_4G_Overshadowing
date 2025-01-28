@@ -1,0 +1,38 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/lowie/Documents/FHSTP/Academiejaar2024-2025/S2/Internship_MasterThesis/srsRAN_4G_Overshadowing -B /Users/lowie/Documents/FHSTP/Academiejaar2024-2025/S2/Internship_MasterThesis/srsRAN_4G_Overshadowing/cmake-build-debug
+-- The C compiler identification is AppleClang 15.0.0.15000100
+-- The CXX compiler identification is AppleClang 15.0.0.15000100
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_SYSTEM: Darwin-24.0.0
+-- CMAKE_SYSTEM_PROCESSOR: arm64
+-- CMAKE_CXX_COMPILER: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found PkgConfig: /usr/local/bin/pkg-config (found version "0.29.2")
+-- Checking for module 'fftw3f >= 3.0'
+--   No package 'fftw3f' found
+-- FFTW3F LIBRARIES: FFTW3F_LIBRARY-NOTFOUND
+-- FFTW3F STATIC LIBRARIES: FFTW3F_STATIC_LIBRARY-NOTFOUND
+-- FFTW3F INCLUDE DIRS: FFTW3F_INCLUDE_DIR-NOTFOUND
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:233 (message):
+  Could NOT find FFTW3F (missing: FFTW3F_LIBRARY FFTW3F_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+  cmake/modules/FindFFTW3F.cmake:61 (find_package_handle_standard_args)
+  CMakeLists.txt:172 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
